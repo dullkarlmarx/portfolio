@@ -3,13 +3,16 @@ html {
     font-size: 18px;
 }
 
-
+.tophead {
+    background-color: #C00C30;
+    color: #f2f2f2;
+}
 
 .topnav {
     background-color: #001E57;
     overflow: hidden;
-    min-width: 100%;
-    }
+    width: 100%;
+}
 
 .topnav a {
     float: left;
@@ -24,12 +27,12 @@ html {
 
 .topnav a:hover {
     background-color: #C00C30;
-    color: white;
+    color: #f2f2f2;
 }
 
 .topnav a.active {
     background-color: #C00C30;
-    color: white;
+    color: #f2f2f2;
 
 }
 
@@ -66,3 +69,10 @@ html {
         display: block;
         text-align: left;
     }
+}
+
+.about p{
+    margin-right: 50%;
+    float: left;
+    display: flex;
+}
