@@ -8,3 +8,8 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
+function nameAnimation(){
+  var name = document.getElementById("name")
+
+}
