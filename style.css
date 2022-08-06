@@ -6,12 +6,10 @@ html {
 
 
 .topnav {
-    background-color: yellow;
+    background-color: #001E57;
     overflow: hidden;
     min-width: 100%;
-    justify-content: space-around;
-
-}
+    }
 
 .topnav a {
     float: left;
@@ -21,17 +19,17 @@ html {
     padding: 1rem 1rem;
     text-decoration: none;
     font-size: 1rem;
-    background-color: black;
+    background-color: #001E57;
 }
 
 .topnav a:hover {
-    background-color: green;
+    background-color: #C00C30;
     color: white;
 }
 
 .topnav a.active {
     background-color: #C00C30;
-    color: brown;
+    color: white;
 
 }
 
